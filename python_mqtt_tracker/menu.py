@@ -72,7 +72,7 @@ def arret():
 		fenetre.quit()
 	
 def show_image():
-	global image,trash,poubelle
+	global image
 	image=get_image()
 	canvas.create_image(0,0,image=image,anchor=NW)
  	
